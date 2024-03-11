@@ -3,4 +3,8 @@ Implementation of various pattern matching algorithms with example and documenta
 
 ## Algortithms 
 
+Aho-Corasick
+Boyer-Moore
+Karp-Rabin
 Knuth-Morris-Pratt (KMP)
+Z-algorithm
