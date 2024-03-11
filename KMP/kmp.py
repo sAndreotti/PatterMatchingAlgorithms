@@ -18,7 +18,7 @@ def preprocessing():
 
         index = index+1
     
-    print(phi)
+    # print(phi)
     return phi
 
 def searching():
@@ -34,6 +34,7 @@ def searching():
 
     phi = preprocessing()
     j=0
+    occurrence=0
 
     for q in range(0, N):
         while j>=0 and pattern[j+1]!=text[q]:
@@ -42,6 +43,9 @@ def searching():
         if j==M-1:
             print(f"Pattern found at {q-M+1}")
             j = phi[j]
+            occurrence=occurrence+1
+    
+    print(f"Total occurencies: {occurrence}")
 
 def border(str):
     bd = ""
