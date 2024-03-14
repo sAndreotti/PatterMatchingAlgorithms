@@ -15,4 +15,4 @@ naive.py
 ```
 
 ## Time
-Very slow, even in theory, the worst but simpliest algorithm
+In the best case the time is O(n), in the worst O(n^2), where n is the text's length

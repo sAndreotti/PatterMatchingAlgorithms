@@ -19,4 +19,4 @@ karp-rabin.py
 ```
 
 ## Time
-The average time is O(n+m), where n is equal to the lenght of the text and m is equal to the lenght of the pattern
+The average time is O(n+m) and the worst time in O(n*m), where n is equal to the lenght of the text and m is equal to the lenght of the pattern

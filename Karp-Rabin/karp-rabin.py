@@ -1,7 +1,7 @@
 import os
  
 def searching():
-    file = open(os.getcwd()+"/Naive/text.txt", "r")
+    file = open(os.getcwd()+"/Karp-Rabin/text.txt", "r")
     text = file.read().replace('\n', ' ').lower()
     N=len(text)
     file.close
@@ -9,7 +9,7 @@ def searching():
     sigma = ''.join(set(text))
     d = len(sigma)
 
-    file = open(os.getcwd()+"/Naive/pattern.txt", "r")
+    file = open(os.getcwd()+"/Karp-Rabin/pattern.txt", "r")
     pattern = file.read().replace('\n', ' ')
     M=len(pattern)
     file.close
